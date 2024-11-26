@@ -47,16 +47,16 @@ urlcolor=primaryColor
 \usepackage{charter}
 
 %bibtex
-\usepackage[backend=biber, style=numeric, sorting=ydnt, maxnames=99, minnames=99, defernumbers=true]{biblatex} % Use any preferred style
+\usepackage[backend=biber, style=ieee, sorting=ydnt, maxnames=99, minnames=99, defernumbers=true]{biblatex} % Use any preferred style
 \addbibresource{jiangpubs.bib} % Link to your .bib file
 
 % Redefine name format to bold "Yu Jiang" while keeping other authors normal
 %\DeclareFieldFormat[book]{author}{\textbf{#1}} % Remove "pp." before page numbers
 % Redefine some fields
 %\DeclareFieldFormat[article]{title}{\textbf{#1}} % Bold the title
-%\DeclareFieldFormat[article]{journal}{\emph{#1}} % Italicize the journal name
+%\DeclareFieldFormat[article]{journaltitle}{#1} % Italicize the journal name
 %\DeclareFieldFormat[article]{volume}{\textbf{#1}} % Bold the volume number
-\DeclareFieldFormat{pages}{#1} % Remove "pp." before page numbers
+%\DeclareFieldFormat{pages}{#1} % Remove "pp." before page numbers
 
 
 
