@@ -9,6 +9,5 @@ I am working on a Latex template to keep my updated CV. Feel free to reuse or co
 * Link your Overleaf Project myCV with your forked Github Repository
 * Pull the changes from Github to your Overleaf myCV
 
-
 ## Example
-Here is my CV being actively maintained in Overleaf 
+* My associated Overleaf project can be viewed [here](https://www.overleaf.com/read/qhjmhvkkbckv#348ad0) as an example.
