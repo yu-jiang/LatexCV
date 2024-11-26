@@ -47,14 +47,16 @@
 \usepackage{charter}
 
 %bibtex
-\usepackage[backend=biber, style=numeric, sorting=ydnt, defernumbers=true]{biblatex} % Use any preferred style
+\usepackage[backend=biber, style=numeric, sorting=ydnt, maxnames=99, minnames=99, defernumbers=true]{biblatex} % Use any preferred style
 \addbibresource{publications.bib} % Link to your .bib file
-% Redefine some fields
-\DeclareFieldFormat[article]{title}{\textbf{#1}} % Bold the title
-\DeclareFieldFormat[article]{journal}{\emph{#1}} % Italicize the journal name
-\DeclareFieldFormat[article]{volume}{\textbf{#1}} % Bold the volume number
-\DeclareFieldFormat{pages}{#1} % Remove "pp." before page numbers
 
+% Redefine name format to bold "Yu Jiang" while keeping other authors normal
+%\DeclareFieldFormat[book]{author}{\textbf{#1}} % Remove "pp." before page numbers
+% Redefine some fields
+%\DeclareFieldFormat[article]{title}{\textbf{#1}} % Bold the title
+%\DeclareFieldFormat[article]{journal}{\emph{#1}} % Italicize the journal name
+%\DeclareFieldFormat[article]{volume}{\textbf{#1}} % Bold the volume number
+\DeclareFieldFormat{pages}{#1} % Remove "pp." before page numbers
 
 
 
@@ -178,20 +180,20 @@
         \vspace{5 pt}
 
         \normalsize
-        %\mbox{Wellesley, MA 02481}%
-        %\kern 5.0 pt%
-        %\AND%
+        \mbox{Greater Boston, MA}%
+        \kern 5.0 pt%
+        \AND%
         \kern 5.0 pt%
         \mbox{\hrefWithoutArrow{mailto:yu.jiang@nyu.edu}{yu.jiang@nyu.edu}}%
         \kern 5.0 pt%
-        \AND%
-        \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{tel:+1.***.***.****}{***.***.****}}%
-        \kern 5.0 pt%
-        \AND%
-        \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{yu-jiang.github.io}{yu-jiang.github.io}}%
-        \kern 5.0 pt%
+        %\AND%
+        %\kern 5.0 pt%
+        %\mbox{\hrefWithoutArrow{tel:+1.***.***.****}{***.***.****}}%
+        %\kern 5.0 pt%
+        %\AND%
+        %\kern 5.0 pt%
+        %\mbox{\hrefWithoutArrow{yu-jiang.github.io}{https://yu-jiang.github.io}}%
+        %\kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
         \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/yujiangphd}{linkedin.com/in/yujiangphd}}%
@@ -207,4 +209,7 @@
     \input{education}
     \input{publications}
     \input{awards}
+    \input{services}
 \end{document}
+
+https://scholar.google.com/citations?user=QYanTRsAAAAJ
