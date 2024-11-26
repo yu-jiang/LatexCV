@@ -1,6 +1,6 @@
 # LatexCV
 
-I am working on a Latex template to keep my updated CV. Feel free to reuse or contribute if you find it useful.
+I am working on a Latex template to keep my updated CV. Feel free to reuse, if you find it useful. Code contributions are welcome. Stars are appreciated.
 
 
 ## Recommended usage
